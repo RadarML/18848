@@ -1,0 +1,18 @@
+[project]
+name = "rfml"
+version = "0.0.0"
+
+requires-python = ">= 3.10"
+dependencies = [
+    "mkdocs == 1.6.*",
+    "mkdocs-material == 9.6.*",
+    "mkdocstrings-python-xref == 1.16.3",
+    "mkdocstrings-python == 1.16.6",
+    "griffe == 1.8.0",
+    "mkdocstrings == 0.29.*",
+    "click == 8.2.1",
+    "mkdocs_template"
+]
+
+[tool.uv.sources]
+mkdocs_template = { path = "plugin", editable = true }

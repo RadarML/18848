@@ -1,0 +1,60 @@
+site_name: RFML
+nav:
+  - Syllabus: index.md
+  - Labs: labs.md
+  - Project: project.md
+
+extra_css:
+  - stylesheets/extra.css
+
+watch:
+- data
+- docs
+- templates
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: octicons/ai-model-16
+    annotation: material/arrow-right-circle
+  font:
+    code: monospace
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.tabs
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+
+plugins:
+- autorefs
+- template:
+    context: ./data
+    templates: ./templates
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.snippets
+
