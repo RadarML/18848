@@ -2,9 +2,9 @@
 
 Course Website | Radio Frequency Machine Learning Course @ CMU
 
-Preview site:
+***
+
+The site builds automatically on push to main. To preview the site:
 ```sh
 uv run mkdocs serve
 ```
-
-The site builds automatically on push to main.
