@@ -1,26 +1,55 @@
 schedule:
-- week: 1
+- date: 1
   title: Introduction & Logistics
-- week: 2-4
-  title: Wireless Communications & Sensing
-  desc: A crash course in wireless systems
-- week: 5-7
-  title: Radar Sensing
-  desc: Fundamentals of FMCW radar, possibly with a hands-on component
-- week: 8-9
+- date: 2-3
+  title: Wireless Communications
+  desc: A crash course in wireless communications
+- date: 4
+  title: Wireless Sensing
+  desc: A crash course in wireless sensing
+- date: 5
+  title: Intro to Radar
+  desc: Basic operating principles of radar sensing
+- date: 6-7
+  title: FMCW Radar
+  desc: FMCW radar & FMCW radar data
+- date: 8-9
   title: Applied Machine Learning
-  desc: With a focus on research methodology
-- week: 10
+  desc: Machine learning research methodology for RF systems
+- date: 10
   title: ML for Perception
-  desc: A survey of modern computer vision and perception techniques
-- week: 11
+  desc: State-of-the-art ML methodology for perception and computer vision
+- date: 11
+  title: Guest Lecture (TBD)
+- date: 12
+  title: Foundation models
+  desc: Advanced Topics Seminar I &mdash; Overview Lecture
+- date: 13-14
+  title: Foundation models
+  desc: Advanced Topics Seminar I &mdash; Student Presentations
+- date: 15
   title: Project Proposals
-  desc: Exact timing TBD, but will occur after the first advanced topic seminar block
-- week: 12-25
-  title: Advanced Topic Seminar Blocks & Guest Lectures
-  desc: >
-    Seminar Blocks (3 total) will consist of an instructor-led overview lecture, followed by 1-2 student-led paper presentations.
-    <br>
-    Guest lectures (~6 total) will feature researchers and industry insiders.
-- week: 26
+- date: 16
+  title: Guest Lecture (TBD)
+- date: 17
+  title: Imaging and simulation
+  desc: Advanced Topics Seminar II &mdash; Overview Lecture
+- date: 18
+  title: Guest Lecture (TBD)
+- date: 19-20
+  title: Imaging and simulation
+  desc: Advanced Topics Seminar II &mdash; Student Presentations
+- date: 21
+  title: Guest Lecture (TBD)
+- date: 22
+  title: Spectrum sensing
+  desc: Advanced Topics Seminar III &mdash; Overview Lecture
+- date: 23
+  title: Spectrum sensing
+  desc: Advanced Topics Seminar III &mdash; Student Presentations
+- date: 24
+  title: Guest Lecture (TBD)
+- date: 25
+  title: Guest Lecture (TBD)
+- date: 26
   title: Project Presentations

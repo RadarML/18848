@@ -9,7 +9,7 @@ Radio Frequency (RF) sensing is a critical component of modern autonomous system
 
 To unlock the full potential of these sensors, we naturally turn to machine learning (ML), which has revolutionized how we approach sensing and perception, particularly in the computer vision community. However, to date, there has been relatively little overlap between the RF and ML communities, with relatively limited work on sensing methodologies which integrate RF and machine learning at a more fundamental level. Modern machine learning paradigms such as large-scale foundation models have also yet to be fully explored for the RF domain.
 
-## Course Overview
+## Overview
 
 This research-focused course will provide students with ML **and/or** RF background the knowledge and skills needed to effectively engage in cross-disciplinary collaborations which push the frontiers of Machine Learning for RF.
 
@@ -37,24 +37,28 @@ In addition, students should either have further machine learning or wireless co
 
 <div class="grid cards" markdown>
 
-- (15%) **Lab 1**: Spectrum Analysis
+- **Lab 1** (15%): Spectrum Analysis
 
     *Capture, analysis, and ML on RF from a spectrum analyzer*
 
-- (15%) **Lab 2**: mmWave Radar
+- **Lab 2** (15%): mmWave Radar
 
-    *Capture, processing, and ML for mmWave radar*
+    *Data collection, processing, and ML for mmWave radar*
 
-- (50%) **Course Project**
+- **Course Project** (50%)
 
     *Proposal + Presentation + Final Report*
 
-- (20%) **Paper Presentations**
+- **Paper Presentations** (20%)
 
     *Optional for students in 18-4XX.*
 
 </div>
 
 ## Schedule
+
+!!! warning "Subject to change"
+
+    The schedule may change dramatically, particularly with regards to the timing of guest lectures.
 
 ::: schedule

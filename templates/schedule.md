@@ -1,7 +1,7 @@
 <table class="schedule">
 {% for lecture in schedule %}
 <tr>
-    <td>{{ lecture.week }}</td>
+    <td>{{ lecture.date }}</td>
     <td><b>{{ lecture.title }}</b>
         {%- if lecture.desc %}
         <br>{{ lecture.desc }}
