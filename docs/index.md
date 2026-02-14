@@ -3,7 +3,11 @@ hide:
 - navigation
 ---
 
-# 18-7XX/4XX **Radio Frequency Machine Learning**
+# 18-7??/4?? **Radio Frequency Machine Learning**
+
+!!! warning "Draft Syllabus"
+
+    This syllabus is a draft "mockup;" the course is still in early planning stages, and many details are chosen arbitrarily at this time.
 
 Radio Frequency (RF) sensing is a critical component of modern autonomous systems. For example, mmWave radars are ubiquitous in modern vehicles and a key part of autonomous driving systems. Due to their robustness, compact form factor, low cost, and privacy-preserving nature, RF sensing systems are also increasingly used for many indoor and human sensing applications.
 
@@ -47,11 +51,15 @@ In addition, students should either have further machine learning or wireless co
 
 - **Course Project** (50%)
 
-    *Proposal + Presentation + Final Report*
+    *Individually or in groups of up to 4*
+    
+    Proposal + Presentation + Final Report
 
 - **Paper Presentations** (20%)
 
-    *Optional for students in 18-4XX.*
+    *Students will read and present 1-2 papers of their choice*
+
+    Optional for students in 18-4??.
 
 </div>
 
