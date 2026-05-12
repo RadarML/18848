@@ -1,8 +1,7 @@
 site_name: RFML @ CMU
 nav:
   - Syllabus: index.md
-  - Labs: labs.md
-  - Project: project.md
+  - Labs & Project: labs.md
 
 extra_css:
   - stylesheets/extra.css

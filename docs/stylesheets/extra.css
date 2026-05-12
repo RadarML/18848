@@ -6,6 +6,11 @@
   --md-accent-fg-color--transparent:   hsla(#{hex2hsl(#007BC0)}, 0.1);
 }
 
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+    padding: 8px 12px;
+}
+
 .md-typeset table.schedule {
   width: 100%;
   border-collapse: collapse;
