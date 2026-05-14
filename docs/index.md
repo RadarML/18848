@@ -3,7 +3,7 @@ hide:
 - navigation
 ---
 
-# 18-848 **Radio Frequency Machine Learning**
+# 18-848 **Machine Learning for Radar**
 
 Radio Frequency (RF) sensing is a critical component of modern autonomous systems. For example, mmWave radars are ubiquitous in modern vehicles and a key part of autonomous driving systems. Due to their robustness, compact form factor, low cost, and privacy-preserving nature, RF sensing systems are also increasingly used for many indoor and human sensing applications.
 

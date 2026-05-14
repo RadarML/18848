@@ -1,4 +1,4 @@
-site_name: RFML @ CMU
+site_name: RadarML @ CMU
 nav:
   - Syllabus: index.md
   - Labs & Project: labs.md
