@@ -33,30 +33,6 @@ In addition, students should either have further machine learning or wireless co
 
 </div>
 
-## Grading
-
-<div class="grid cards" markdown>
-
-- **Lab 1** (15%): Spectrum Analysis
-
-    *Capture, analysis, and ML on RF from a spectrum analyzer*
-
-- **Lab 2** (15%): mmWave Radar
-
-    *Data collection, processing, and ML for mmWave radar*
-
-- **Course Project** (50%)
-
-    *Individually or in groups of up to 4*
-    
-    Proposal + Presentation + Final Report
-
-- **Paper Presentations** (20%)
-
-    *Students will read and present 1-2 papers of their choice*
-
-</div>
-
 ## Schedule
 
 !!! warning "Subject to change"

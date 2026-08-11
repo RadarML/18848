@@ -1,6 +1,6 @@
-# rfml
+# 18-848 RadarML
 
-Course Website | Radio Frequency Machine Learning Course @ CMU
+Course Website
 
 ***
 
