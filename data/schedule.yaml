@@ -1,58 +1,82 @@
 schedule:
-- date: 1
-  title: Introduction & Logistics
-- date: 2-3
-  title: Wireless Communications
-  desc: A crash course in wireless communications, providing a high level overview for students without wireless background and a review for students with wireless background.
-- date: 4
-  title: Wireless Sensing
-  desc: A crash course in passive wireless sensing
-- date: 5-6
-  title: Intro to Radar
-  desc: Operating principles of radar, and an overview of the different types and applications of radar systems
-- date: 7
-  title: FMCW Radar
-  desc: FMCW radar & FMCW radar data
-- date: 8
-  title: Applied Machine Learning
-  desc: A crash course on modern applied machine learning, from small statistical models to scaled-up foundation models
-- date: 9
-  title: ML for Perception
-  desc: State-of-the-art ML methodology for perception and computer vision
-- date: 10
-  title: ML for RF Systems
-  desc: Some of the key challenges you'll encounter when working with RF data
-- date: 11
-  title: Guest Lecture (TBD)
-- date: 12
-  title: Foundation models
-  desc: Advanced Topics Seminar I &mdash; Overview Lecture
-- date: 13-14
-  title: Foundation models
-  desc: Advanced Topics Seminar I &mdash; Student Presentations
-- date: 15
-  title: Project Proposals
-- date: 16
-  title: Guest Lecture (TBD)
-- date: 17
-  title: Imaging and simulation
-  desc: Advanced Topics Seminar II &mdash; Overview Lecture
-- date: 18
-  title: Guest Lecture (TBD)
-- date: 19-20
-  title: Imaging and simulation
-  desc: Advanced Topics Seminar II &mdash; Student Presentations
-- date: 21
-  title: Guest Lecture (TBD)
-- date: 22
-  title: Spectrum sensing
-  desc: Advanced Topics Seminar III &mdash; Overview Lecture
-- date: 23
-  title: Spectrum sensing
-  desc: Advanced Topics Seminar III &mdash; Student Presentations
-- date: 24
-  title: Guest Lecture (TBD)
-- date: 25
-  title: Guest Lecture (TBD)
-- date: 26
-  title: Project Presentations
+- date: 08/25
+  topic: Introduction & Logistics
+- date: 08/27
+  topic: Wireless Basics
+  description: A crash course in wireless communications, providing a high level overview for students without wireless background and a review for students with wireless background.
+- date: 09/01
+  topic: Wireless Basics
+- date: 09/03
+  topic: Intro Radar
+  description: A crash course in radar systems and radar signal processing pipelines
+- date: 09/08
+  topic: Intro Radar
+- date: 09/10
+  topic: Radar Hardware
+  assignment: Lab 1/2 Due
+  description: What do modern mmWave radars look like? What are the key components, different types, and design considerations?
+- date: 09/15
+  topic: Radar Hardware
+- date: 09/17
+  topic: Applied ML
+  description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
+- date: 09/22
+  topic: Applied ML
+  assignment: Lab 2/2 Due
+- date: 09/24
+  topic: Foundation Models & Signals
+  description: What does it mean to train a foundation model? What happens when you try to do this with signals?
+- date: 09/29
+  topic: TBD (Guest Lecture or Seminar)
+  assignment: Project Proposal Due
+- date: 10/01
+  topic: TBD (Guest Lecture or Seminar)
+- date: 10/06
+  topic: TBD (Guest Lecture or Seminar)
+- date: 10/08
+  topic: Guest Lecture - Justin Chan
+- date: 10/13
+  topic: Fall Break
+  highlight: green
+  bold: false
+- date: 10/15
+  topic: Fall Break
+  highlight: green
+  bold: false
+- date: 10/20
+  topic: TBD (Guest Lecture or Seminar)
+- date: 10/22
+  topic: TBD (Guest Lecture or Seminar)
+- date: 10/27
+  topic: TBD (Guest Lecture or Seminar)
+- date: 10/29
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/3
+  topic: No class (democracy day)
+  highlight: green
+  bold: false
+- date: 11/5
+  topic: TBD (Guest Lecture or Seminar)
+  assignment: Project progress report due
+- date: 11/10
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/12
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/17
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/19
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/24
+  topic: TBD (Guest Lecture or Seminar)
+- date: 11/26
+  topic: Thanksgiving Break
+  highlight: green
+  bold: false
+- date: 12/1
+  topic: Final Presentations / Demos
+- date: 12/3
+  topic: Final Presentations / Demos
+- date: 12/4
+  assignment: Final report due
+  highlight: green
+  bold: false

@@ -1,3 +1,6 @@
+/** TOC on the left */
+.md-sidebar--secondary { order: 0; }
+
 :root  > * {
   --md-primary-fg-color:        #C41230;
   --md-primary-fg-color--light: #C41230;
@@ -24,6 +27,18 @@
   background-color: #f5f5f5;
 }
 
+.md-typeset table.schedule {
+  --schedule-highlight-green:  #e3f3e6;
+  --schedule-highlight-yellow: #fdf3d0;
+  --schedule-highlight-blue:   #e0eefa;
+  --schedule-highlight-red:    #fbe6e6;
+}
+
+.md-typeset table.schedule tr.highlight-green  { background-color: var(--schedule-highlight-green); }
+.md-typeset table.schedule tr.highlight-yellow { background-color: var(--schedule-highlight-yellow); }
+.md-typeset table.schedule tr.highlight-blue   { background-color: var(--schedule-highlight-blue); }
+.md-typeset table.schedule tr.highlight-red    { background-color: var(--schedule-highlight-red); }
+
 .md-typeset span.tag {
     background-color: var(--md-typeset-a-color);
     color: white;
@@ -34,4 +49,38 @@
     font-size: 80%;
     font-weight: normal;
     white-space: nowrap;
+}
+
+
+.md-typeset .grid > .card.speaker {
+  display: flex;
+  gap: 0.8em;
+  align-items: flex-start;
+}
+
+.md-typeset .speaker-photo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.md-typeset .speaker-name {
+  font-weight: bold;
+}
+
+.md-typeset .speaker-affiliation {
+  font-weight: normal;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .speaker-title {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .speaker-topic {
+  margin-top: 0.2em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
 }

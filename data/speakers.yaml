@@ -1,0 +1,15 @@
+speakers:
+- name: Matthew O'Toole
+  url: https://www.cs.cmu.edu/~motoole2/
+  photo: people/matt.jpg
+  title: Associate Professor, CMU RI & CSD
+  topic: F-k Migration (computational imaging)
+- name: Justin Chan
+  url: https://www.cs.cmu.edu/~justinc3/
+  title: Assistant Professor, CMU S3D and ECE
+  photo: people/justin.png
+- name: Ray Huang
+  url: https://huangjuite.github.io/
+  photo: people/ray.jpg
+  title: PhD Student, CMU RI
+  topic: Radar Odometry and SLAM

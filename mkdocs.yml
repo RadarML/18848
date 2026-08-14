@@ -2,6 +2,7 @@ site_name: RadarML @ CMU
 nav:
   - Syllabus: index.md
   - Labs & Project: labs.md
+#   - Resources: resources.md
 
 extra_css:
   - stylesheets/extra.css
