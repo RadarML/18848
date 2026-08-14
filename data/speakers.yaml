@@ -12,6 +12,10 @@ speakers:
   url: https://www.linkedin.com/in/matthias-hagedorn-241640127/
   title: Chief Technology Officer for Radar, Bosch
   photo: people/matthias.jpg
+- name: Thomas Huang
+  url: https://www.thomasehuang.com/
+  title: Research Scientist, Waymo AI Foundations
+  photo: people/thomas.jpg
 - name: Ray Huang
   url: https://huangjuite.github.io/
   photo: people/ray.jpg
