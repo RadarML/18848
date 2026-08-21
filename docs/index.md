@@ -43,6 +43,12 @@ This research-focused course will provide students with ML **and/or** RF backgro
 
 The course will feature traditional lectures covering key background, such as the fundamentals of modern FMCW radars and machine learning research methodologies for scaling up ML research for novel domains, as well as research lectures covering the current state-of-the art and guest lectures from academic researchers and industry insiders. Students will also gain hands-on experience working with wireless systems such as mmWave radars and spectrum analyzers, as well as large datasets collected from these systems to develop, train, and apply modern machine learning techniques such as self-supervised learning and scaled-up transformer models. Finally, students will complete a research project applying Machine Learning techniques to mmWave radar or an RF system of their choice.
 
+### Course Objectives
+
+Machine Learning and Radar Systems cover a broad range of topics, all of which must be integrated together to develop and deploy a modern state-of-the-art ML-enabled radar or wireless perception system. Indeed, the breadth of expertise which must work together to build such a system is so large that we believe that no single person could possibly master all of them.
+
+Accordingly, the goal of this course is explicitly *not* to set a list of knowledge and skills which students must master, but rather to provide students with enough high-level context and understanding of the key concepts, problems, and tradeoffs in both machine learning and radar systems such that they can effectively collaborate with experts in complementary domains to push the frontiers of research in this area.
+
 ### Prerequisites
 
 This course is intended for graduate students and advanced undergraduate students. All students are expected to have some machine learning background (e.g., 10-202, 10-301, or 18-661), be familiar with programming in Python (e.g., to use ML frameworks such as Pytorch), and have at least undergraduate-level linear algebra and probability background.
@@ -70,6 +76,8 @@ Grading will be based on the following assignments:
 - Radar systems (15%): configuring, collecting, processing, and visualizing data from a mmWave radar (AWR1843AOPEVM).
 - Machine learning on radar data (15%): training a radar model and running ablations.
 
+Note that these labs are not intended to be comprehensive, end-to-end projects; most of the software and hardware components will be provided for you, with the goal of making sure that you know how to use these tools, and can apply them to the course project (and hopefully your own work in the future).
+
 **Course project (50%)**: students will complete a course project in groups of up to 4 students (students may form groups of any size, including individually). Students are encouraged to form groups with complementary skill sets and to select projects which are aligned with other concurrent research activities if applicable.
 
 Each project must involve some form of machine learning training and/or inference, and must involve some form of radar or other RF hardware, either for data collection and/or online deployment.
@@ -81,7 +89,7 @@ The project will be split into the following milestones:
 - Final presentation (10%)
 - Final report (20%)
 
-**Presentation and paper review (15%)**: students will present a paper of their choice from the radar, ML, and related literature as part of student-led discussions.
+**Presentation and paper review (15%)**: students will present one or more papers of their choice from the radar, ML, and related literature as part of student-led discussions.
 
 **Class participation (5%)**: As a research-focused course, we understand that students often have conflicting commitments (e.g., conferences). We expect students to attend and actively participate whenever possible, and notify the instructors in advance if they will be unable to attend class. We may also ask students to make specific preparations (e.g., discussion questions) in advance of guest lectures.
 
