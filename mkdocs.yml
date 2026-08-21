@@ -1,4 +1,9 @@
 site_name: RadarML @ CMU
+
+validation:
+  nav:
+    omitted_files: ignore
+
 nav:
   - Syllabus: index.md
   - Labs & Project: labs.md
