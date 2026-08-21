@@ -101,14 +101,14 @@ This class is not a conventional lecture-based course, and will be roughly split
 
 ### Guest Speakers
 
-We plan to have 6-8 guest speakers; more details coming!
-
 ::: speakers
 
 ## Schedule
 
 !!! warning "Subject to change"
 
-    The course schedule is subject to change, particularly with regards to the timing of guest lectures. Check back here for changes; updates will also be announced in class.
+    The course schedule is subject to change, particularly with regards to the timing of guest lectures.
+    
+    Updates will be announced in class; you can also check here for changes.
 
 ::: schedule

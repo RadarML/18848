@@ -24,16 +24,16 @@ schedule:
   topic: Applied ML
   assignment: Lab 2/2 Due
 - date: 09/24
+  topic: Guest Lecture &mdash; Michael Ulrich
+  description: "From Blips to Bounding Boxes: The Evolution of Automotive Radar Perception"
+- date: 09/29
   topic: Foundation Models & Signals
   description: What does it mean to train a foundation model? What happens when you try to do this with signals?
-- date: 09/29
-  topic: Introduction to Seminar & Discussion Topics
-  assignment: Project Proposal Due
 - date: 10/01
   topic: Guest Lecture &mdash; Thomas Huang
 - date: 10/06
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Introduction to Seminar & Discussion Topics
+  assignment: Project Proposal Due
 - date: 10/08
   topic: Guest Lecture &mdash; Justin Chan
 - date: 10/13
@@ -45,40 +45,35 @@ schedule:
   highlight: green
   bold: false
 - date: 10/20
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Wireless Sensing
 - date: 10/22
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Guest Lecture
+  description: Approximate date; Guest TBD.
 - date: 10/27
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Wireless Sensing
 - date: 10/29
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Guest Lecture
+  description: Approximate date; Guest TBD.
 - date: 11/3
   topic: No class (democracy day)
+  bold: false
   highlight: green
-  bold: false
 - date: 11/5
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Learning on Spectrum
   assignment: Project progress report due
 - date: 11/10
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Learning on Spectrum
 - date: 11/12
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Guest Lecture
+  description: Approximate date; Guest TBD.
+  assignment: The CVPR deadline will likely fall near this date
 - date: 11/17
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Imaging & Simulation
 - date: 11/19
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Guest Lecture
+  description: Approximate date; Guest TBD.
 - date: 11/24
-  topic: Guest Lecture or Seminar
-  bold: false
+  topic: Imaging & Simulation
 - date: 11/26
   topic: Thanksgiving Break
   highlight: green

@@ -1,23 +1,25 @@
 speakers:
+- name: Justin Chan
+  url: https://www.cs.cmu.edu/~justinc3/
+  title: Assistant Professor, CMU S3D & ECE
+  photo: people/justin.png
 - name: Matthew O'Toole
   url: https://www.cs.cmu.edu/~motoole2/
   photo: people/matt.jpg
   title: Associate Professor, CMU RI & CSD
-  topic: F-k Migration (computational imaging)
-- name: Justin Chan
-  url: https://www.cs.cmu.edu/~justinc3/
-  title: Assistant Professor, CMU S3D and ECE
-  photo: people/justin.png
 - name: Matthias Hagedorn
   url: https://www.linkedin.com/in/matthias-hagedorn-241640127/
   title: Chief Technology Officer for Radar, Bosch
   photo: people/matthias.jpg
-- name: Thomas Huang
-  url: https://www.thomasehuang.com/
-  title: Research Scientist, Waymo AI Foundations
-  photo: people/thomas.jpg
+- name: Michael Ulrich
+  url: https://www.linkedin.com/in/michael-ulrich-660a96224/
+  title: Senior Expert, AI Perception & Signal Processing, Bosch
+  photo: people/michael.jpg
 - name: Ray Huang
   url: https://huangjuite.github.io/
   photo: people/ray.jpg
   title: PhD Student, CMU RI
-  topic: Radar Odometry and SLAM
+- name: Thomas Huang
+  url: https://www.thomasehuang.com/
+  title: Research Scientist, Waymo AI Foundations
+  photo: people/thomas.jpg
