@@ -47,8 +47,8 @@ schedule:
 - date: 10/20
   topic: Wireless Sensing
 - date: 10/22
-  topic: Guest Lecture
-  description: Approximate date; Guest TBD.
+  topic: Guest Lecture &mdash; Ray Huang
+  description: Radar Odometry and SLAM
 - date: 10/27
   topic: Wireless Sensing
 - date: 10/29
@@ -62,10 +62,10 @@ schedule:
   topic: Learning on Spectrum
   assignment: Project progress report due
 - date: 11/10
-  topic: Learning on Spectrum
+  topic: Guest Lecture &mdash; Matthias Hagedorn
+  description: Automotive Radar Systems
 - date: 11/12
-  topic: Guest Lecture
-  description: Approximate date; Guest TBD.
+  topic: Learning on Spectrum
   assignment: The CVPR deadline will likely fall near this date
 - date: 11/17
   topic: Imaging & Simulation
