@@ -5,7 +5,7 @@ hide:
 
 # Finding the Classroom
 
-The classroom is located on the **1st floor of Porter Hall**, which connects directly to the hallway running along Baker Hall.
+The PH 125B classroom is located on the **1st floor of Porter Hall**, which connects directly to the hallway running along Baker Hall.
 
 !!! warning "Watch out for the A-level"
 
