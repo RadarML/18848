@@ -31,7 +31,7 @@ To unlock the full potential of these sensors, we naturally turn to machine lear
 
 <div class="card">
     <div class="speaker-body">
-        <div class="speaker-name">Lecture: Tuesday / Thursday, 12:20–1:50pm</div>
+        <div class="speaker-name">Lecture: Tuesday / Thursday, 12:30–1:50pm</div>
         <div class="speaker-title"><a href="where">Porter Hall 125B</a></div>
     </div>
 </div>
