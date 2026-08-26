@@ -5,10 +5,14 @@
     <td>{%- set parts = [] -%}
         {%- if lecture.topic -%}
             {%- if lecture.bold | default(true) -%}
-                {%- set _ = parts.append('<b>' ~ lecture.topic ~ '</b>') -%}
+                {%- set topic = '<b>' ~ lecture.topic ~ '</b>' -%}
             {%- else -%}
-                {%- set _ = parts.append(lecture.topic) -%}
+                {%- set topic = lecture.topic -%}
             {%- endif -%}
+            {%- if lecture.slides -%}
+                {%- set topic = topic ~ '&emsp;<a href="' ~ lecture.slides ~ '">[slides]</a>' -%}
+            {%- endif -%}
+            {%- set _ = parts.append(topic) -%}
         {%- endif -%}
         {%- if lecture.description -%}
             {%- set _ = parts.append(lecture.description) -%}
