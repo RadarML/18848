@@ -5,6 +5,7 @@ schedule:
 - date: 08/27
   topic: Wireless Basics
   description: A crash course in wireless communications, providing a high level overview for students without wireless background and a review for students with wireless background.
+  slides: resources/08_27_wireless.pdf
 - date: 09/01
   topic: Wireless Basics
 - date: 09/03
