@@ -14,7 +14,6 @@ schedule:
   topic: Intro Radar
 - date: 09/10
   topic: Radar Hardware
-  assignment: Lab 1/2 Due
   description: What do modern mmWave radars look like? What are the key components, different types, and design considerations?
 - date: 09/15
   topic: Radar Hardware
@@ -23,7 +22,6 @@ schedule:
   description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
 - date: 09/22
   topic: Applied ML
-  assignment: Lab 2/2 Due
 - date: 09/24
   topic: Guest Lecture &mdash; Michael Ulrich
   description: "From Blips to Bounding Boxes: The Evolution of Automotive Radar Perception"

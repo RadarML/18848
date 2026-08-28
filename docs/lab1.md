@@ -94,7 +94,7 @@ Document these requirements in your lab report (e.g., "the radar should be able 
 
 Once you have determined these requirements, you can proceed to design your modulation by selecting appropriate values for each [configuration parameter](https://radarml.github.io/xwr/system/#xwr.XWRConfig).
 
-![Chirp Timing Diagram](/resources/chirp_timing.png)
+![Chirp Timing Diagram](resources/chirp_timing.png)
 
 
 In addition to the [hardware constraints](https://radarml.github.io/xwr/constraints/) which must be satisfied, your modulation must meet the following requirements:
