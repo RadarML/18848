@@ -1,8 +1,3 @@
----
-hide:
-- navigation
----
-
 # Labs & Projects
 
 ## Radar Platform

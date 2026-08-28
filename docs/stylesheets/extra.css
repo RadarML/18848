@@ -1,5 +1,5 @@
-/** TOC on the left */
-.md-sidebar--secondary { order: 0; }
+/** TOC on the left, only on the homepage (index.md) */
+.md-sidebar--secondary.md-sidebar--toc-left { order: 0; }
 
 :root  > * {
   --md-primary-fg-color:        #C41230;
