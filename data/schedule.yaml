@@ -10,26 +10,30 @@ schedule:
 - date: 09/03
   topic: Intro Radar
   description: A crash course in radar systems and radar signal processing pipelines
+  assignment: Lab 1 assigned; radar lab kits available
 - date: 09/08
   topic: Intro Radar
 - date: 09/10
-  topic: Radar Hardware
-  description: What do modern mmWave radars look like? What are the key components, different types, and design considerations?
-- date: 09/15
-  topic: Radar Hardware
-- date: 09/17
   topic: Applied ML
   description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
-- date: 09/22
+  assignment: Lab 2 assigned
+- date: 09/15
   topic: Applied ML
+- date: 09/17
+  topic: Radar Hardware
+  description: What do modern mmWave radars look like? What are the key components, different types, and design considerations?
+- date: 09/22
+  topic: Radar Hardware
 - date: 09/24
   topic: Guest Lecture &mdash; Michael Ulrich
   description: "From Blips to Bounding Boxes: The Evolution of Automotive Radar Perception"
+  assignment: Lab 1 due
 - date: 09/29
   topic: Foundation Models & Signals
   description: What does it mean to train a foundation model? What happens when you try to do this with signals?
 - date: 10/01
   topic: Guest Lecture &mdash; Thomas Huang
+  assignment: Lab 2 due
 - date: 10/06
   topic: Introduction to Seminar & Discussion Topics
   assignment: Project Proposal Due

@@ -18,8 +18,8 @@ This lab provides an introduction to mmWave radar systems, and covers all of the
 ### About the Development Kit
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="/resources/devkit.jpg" alt="Development kit" style="height: 300px;">
-  <img src="/resources/devkit_inside.jpg" alt="Development kit, inside view" style="height: 300px;">
+  <img src="devkit.jpg" alt="Development kit" style="height: 300px;">
+  <img src="devkit_inside.jpg" alt="Development kit, inside view" style="height: 300px;">
 </div>
 
 The development kit is a mmWave FMCW radar system consisting of a [TI AWR1843AOPEVM](https://www.ti.com/tool/AWR1843AOPEVM) radar (red PCB) and a [TI DCA1000EVM](https://www.ti.com/tool/DCA1000EVM) radar capture card (green PCB).
@@ -57,7 +57,7 @@ These components have been integrated into a 3D-printed enclosure for you; you s
 
 ### Setting up the Development Kit
 
-![Development kit, side view](resources/devkit_side.jpg){ width="500" }
+![Development kit, side view](devkit_side.jpg){ width="500" }
 
 The radar unit has 3 ports on the side:
 
@@ -94,7 +94,7 @@ Document these requirements in your lab report (e.g., "the radar should be able 
 
 Once you have determined these requirements, you can proceed to design your modulation by selecting appropriate values for each [configuration parameter](https://radarml.github.io/xwr/system/#xwr.XWRConfig).
 
-![Chirp Timing Diagram](resources/chirp_timing.png)
+![Chirp Timing Diagram](chirp_timing.png)
 
 
 In addition to the [hardware constraints](https://radarml.github.io/xwr/constraints/) which must be satisfied, your modulation must meet the following requirements:
