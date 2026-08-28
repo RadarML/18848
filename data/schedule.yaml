@@ -36,9 +36,9 @@ schedule:
   assignment: Lab 2 due
 - date: 10/06
   topic: Introduction to Seminar & Discussion Topics
-  assignment: Project Proposal Due
 - date: 10/08
   topic: Guest Lecture &mdash; Justin Chan
+  assignment: Project Proposal Due
 - date: 10/13
   topic: Fall Break
   highlight: green

@@ -180,8 +180,6 @@ Your submission should include a lab report along with your code and (if request
 - The data capture system code
 - The signal processing implementation code
 
-Please export your lab report as a pdf.
-
 ### Rubric
 
 !!! warning
