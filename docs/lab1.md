@@ -11,7 +11,7 @@ This lab provides an introduction to mmWave radar systems, and covers all of the
 
     Please use [this template](https://docs.google.com/document/d/1G79DNzzjv6U89gqMVlvMjhVO6Dp2uxdTos6liQZTzk0/edit?usp=sharing) for your lab report.
 
-    (If this looks familiar to anyone, this is modeled after a Google design document!)
+    *Looks familiar? For anyone who has worked for Google/Alphabet, the report is modeled after a Google design document!*
 
 ## Set up the Radar
 

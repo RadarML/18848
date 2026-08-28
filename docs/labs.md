@@ -1,16 +1,30 @@
 # Labs & Projects
 
-## Radar Platform
+## Lab Manuals
 
-The labs and projects will be principally based on the [TI AWR1843AOPEVM](https://www.ti.com/tool/AWR1843AOPEVM) mmWave radar evaluation module and the [RadarML](https://radarml.github.io/) / [xwr](https://radarml.github.io/xwr/) software stack.
+<div class="grid cards" markdown>
 
-Students will receive a lab kit with the following:
+- Radar Configuration, Capture, and Processing
 
-- Radar & capture card assembly, with the TI AWR1843AOPEVM and DCA1000EVM within a 3D-printed enclosure
-- 5v power supply for the capture card
-- Micro USB cable and ethernet cable
+    *Coming soon!*
+
+- Model Training and Evaluation
+
+    *Coming soon!*
+
+</div>
 
 ## Course Project
+
+<div class="grid cards" markdown>
+
+- Project Proposal Template
+
+- Midterm Report Template
+
+- Final Report Template
+
+</div>
 
 In groups of up to 4, students will complete an open-ended project applying machine learning techniques to the AWR1843AOP radar platform or another RF system of their choice. The project must have the following elements:
 
