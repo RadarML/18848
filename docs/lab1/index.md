@@ -81,6 +81,10 @@ If everything has been set up correctly, you should be able to clone the [`xwr` 
 
 ## Configure the Radar
 
+!!! tip
+
+    You may find our [FMCW radar cheatsheet](https://github.com/RadarML/radar-cheatsheet/releases/download/v1.0/radar_cheatsheet.pdf) to be useful for this lab.
+
 ### Determine Requirements
 
 In this lab, you will need to collect and visualize data captured with a moving and static sensor and targets.

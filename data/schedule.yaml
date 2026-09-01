@@ -26,10 +26,11 @@ schedule:
   description: FMCW radars &mdash; like the ones you will be using in course (plus a demo!)
   assignment: Lab 1 assigned; radar lab kits available
   resources:
-    # See Also:
-    #   Pulse Compression: https://www.youtube.com/watch?v=Ey-Z93BbQ0Y
-    #   FMCW: https://www.youtube.com/watch?v=xUGWHGjCtII
-    #   Range-Doppler: https://www.youtube.com/watch?v=G_tmNtP0gw8
+    See Also:
+      FMCW Radar Cheatsheet: https://github.com/RadarML/radar-cheatsheet/releases/download/v1.0/radar_cheatsheet.pdf
+      Pulse Compression: https://www.youtube.com/watch?v=Ey-Z93BbQ0Y
+      FMCW: https://www.youtube.com/watch?v=xUGWHGjCtII
+      Range-Doppler: https://www.youtube.com/watch?v=G_tmNtP0gw8
 - date: 09/10
   topic: Applied ML
   description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
