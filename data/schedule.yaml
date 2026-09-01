@@ -8,18 +8,34 @@ schedule:
   slides: resources/08_27_wireless.pdf
 - date: 09/01
   topic: Wireless Basics
+  resources:
+    See Also:
+      I/Q: https://www.youtube.com/watch?v=Ev3lZClnLhQ
+      Aliasing: https://www.youtube.com/watch?v=eBHbCZo9QrM
+      Phased arrays: https://www.youtube.com/watch?v=jSDLfcNhThw
 - date: 09/03
   topic: Intro Radar
   description: A crash course in radar systems and radar signal processing pipelines
-  assignment: Lab 1 assigned; radar lab kits available
+  resources:
+    See Also:
+      Radar equation: https://www.youtube.com/watch?v=UKbQcEZIKgc
+      CFAR: https://www.youtube.com/watch?v=BEg29UuZk6c
+      Radar resolution: https://www.youtube.com/watch?v=MmpPfQ8WoWk
 - date: 09/08
   topic: Intro Radar
+  description: FMCW radars &mdash; like the ones you will be using in course (plus a demo!)
+  assignment: Lab 1 assigned; radar lab kits available
+  resources:
+    # See Also:
+    #   Pulse Compression: https://www.youtube.com/watch?v=Ey-Z93BbQ0Y
+    #   FMCW: https://www.youtube.com/watch?v=xUGWHGjCtII
+    #   Range-Doppler: https://www.youtube.com/watch?v=G_tmNtP0gw8
 - date: 09/10
   topic: Applied ML
   description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
-  assignment: Lab 2 assigned
 - date: 09/15
   topic: Applied ML
+  assignment: Lab 2 assigned
 - date: 09/17
   topic: Radar Hardware
   description: What do modern mmWave radars look like? What are the key components, different types, and design considerations?
@@ -28,15 +44,15 @@ schedule:
 - date: 09/24
   topic: Guest Lecture &mdash; Michael Ulrich
   description: "From Blips to Bounding Boxes: The Evolution of Automotive Radar Perception"
-  assignment: Lab 1 due
 - date: 09/29
   topic: Foundation Models & Signals
   description: What does it mean to train a foundation model? What happens when you try to do this with signals?
+  assignment: Lab 1 due
 - date: 10/01
   topic: Guest Lecture &mdash; Thomas Huang
-  assignment: Lab 2 due
 - date: 10/06
   topic: Introduction to Seminar & Discussion Topics
+  assignment: Lab 2 due
 - date: 10/08
   topic: Guest Lecture &mdash; Justin Chan
   assignment: Project Proposal Due
