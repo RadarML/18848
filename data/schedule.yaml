@@ -8,6 +8,7 @@ schedule:
   slides: resources/08_27_wireless.pdf
 - date: 09/01
   topic: Wireless Basics
+  slides: resources/09_01_wireless.pdf
   resources:
     See Also:
       I/Q: https://www.youtube.com/watch?v=Ev3lZClnLhQ
