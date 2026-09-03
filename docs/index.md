@@ -25,7 +25,8 @@ To unlock the full potential of these sensors, we naturally turn to machine lear
             Instructor: Tianshu Huang
         </div>
         <div class="speaker-topic">tianshu2@andrew.cmu.edu</div>
-        <div class="speaker-title">Office Hours: TBD or by appointment</div>
+        <div class="speaker-title">CIC 2313F</div>
+        <div class="speaker-title">Office Hours: Th 2-3pm (or by appointment)</div>
     </div>
 </div>
 
@@ -33,6 +34,7 @@ To unlock the full potential of these sensors, we naturally turn to machine lear
     <div class="speaker-body">
         <div class="speaker-name">Lecture: Tuesday / Thursday, 12:30–1:50pm</div>
         <div class="speaker-title"><a href="where">Porter Hall 125B</a></div>
+        <div class="speaker-title">Lab Hours: CIC 2300, M-F 9am-5pm</div>
     </div>
 </div>
 </div>
