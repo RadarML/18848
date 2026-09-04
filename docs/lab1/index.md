@@ -13,6 +13,12 @@ This lab provides an introduction to mmWave radar systems, and covers all of the
 
     *Looks familiar? For anyone who has worked for Google/Alphabet, the report is modeled after a Google design document!*
 
+??? quote "Revision History"
+
+    | Date | Description |
+    | --- | --- |
+    | 2026-09-03 | Complete draft |
+
 ## Set up the Radar
 
 ### About the Development Kit
@@ -179,17 +185,19 @@ You are of course free and encouraged to attempt these if you wish!
 
 ## Visualize Data
 
-Using your signal processing implementation, generate the following for a sample frame from each setting:
+Using your signal processing implementation, generate the following:
 
 - Range-Doppler heatmaps
 - Range-azimuth heatmaps
 - Bird's eye view of the detected points in Cartesian coordinates
 
+Render and save visualizations for a sample frame from each setting, and include this in your report.
+
 !!! info
 
     Make sure that heatmaps use a color mapping which makes the data easily interpretable. As a hint, when using standard colormaps (e.g., matplotlib `viridis`), you can apply transformations to the data prior to plotting, e.g. `sqrt`, `log`, and/or clipping by the 99th percentile.
 
-Then, answer the following questions:
+Then, answer (and **briefly explain** your answer to) the following questions:
 
 - What happens to the radar measurements when there is motion in the scene?
 - What happens to the radar measurements when the sensor moves?
@@ -203,7 +211,7 @@ Then, answer the following questions:
 Your submission should include a lab report along with your code and (if requested) data. Make sure you have included:
 
 - Your lab report, including each visualization
-- The data capture system code
+- The data capture code
 - The signal processing implementation code
 
 ### Rubric
@@ -212,9 +220,39 @@ Your submission should include a lab report along with your code and (if request
 
     Submission of the lab report and code are prerequisites to receiving credit for any component of this lab! 
 
-| Component | Weight |
+This lab is worth 100 points, divided across five components:
+
+| Component | Points |
 |-----------|--------|
-| Development kit setup | 25% |
-| Modulation design | 25% |
-| Signal processing implementation | 25% |
-| Data samples and visualizations | 25% |
+| Development kit setup | 10 |
+| Modulation design | 25 |
+| Data capture system | 15 |
+| Signal processing implementation | 30 |
+| Data samples and visualizations | 20 |
+
+1. **Development kit setup** (10 points)
+
+    1. (10 points) The radar and capture card are operational
+
+2. **Modulation design** (25 points)
+
+    1. (5 points) Requirements are fully documented
+    2. (5 points) A fully-specified modulation is provided which does not violate any constraints
+    2. (15 points) The modulation is demonstrated to meet each of the stated requirements
+
+3. **Data capture system** (15 points)
+
+    1. (5 points) A data capture system is implemented and submitted
+    2. (10 points) Design decisions are documented
+
+4. **Signal processing implementation** (20 points)
+
+    1. (5 points) Raw data is correctly parsed and organized into a data cube
+    2. (5 points) Range-Doppler processing
+    3. (5 points) Azimuth-elevation processing
+    4. (5 points) CFAR detection & point cloud generation
+
+5. **Data samples and visualizations** (30 points)
+
+    1. (20 points) Range-doppler, range-azimuth, and point cloud visualizations for all four conditions
+    6. (10 points) Four analysis questions
