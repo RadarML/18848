@@ -26,7 +26,7 @@ schedule:
 - date: 09/08
   topic: Intro Radar
   description: FMCW radars &mdash; like the ones you will be using in course (plus a demo!)
-  assignment: Lab 1 assigned; radar lab kits available
+  assignment: <a href="lab1/">Lab 1</a> assigned; radar lab kits available
   resources:
     See Also:
       FMCW Radar Cheatsheet: https://github.com/RadarML/radar-cheatsheet/releases/download/v1.0/radar_cheatsheet.pdf
@@ -36,6 +36,7 @@ schedule:
 - date: 09/10
   topic: Applied ML
   description: Everything you need to know to get started with applied machine learning, with a focus on applied research.
+  assignment: Register for <a href="https://account.access-ci.org/register">NSF access</a> and submit your username on canvas
 - date: 09/15
   topic: Applied ML
   assignment: Lab 2 assigned
