@@ -1,5 +1,22 @@
 # Labs & Projects
 
+## Course Policies
+
+- You must independently complete assignments except where explicitly permitted. Copying or fabricating data or results is a serious violation of academic integrity.
+- You are permitted to use generative AI tools, but are ultimately responsible for the content and quality of your submission.
+
+??? quote "Academic Integrity"
+
+    Academic integrity in this course is built on trust, authenticity, and personal accountability, ensuring that all submitted work reflects your own learning and effort. While you are encouraged to discuss course concepts with your peers, sharing, copying, or receiving direct solutions is strictly prohibited.
+
+    Furthermore, unless explicitly permitted, you must independently collect and/or generate all artifacts required by an assignment; **copying data or results from others, as well as fabricating data or results, constitutes a severe violation of academic honesty**. Unless an assignment is explicitly designated as a group project (i.e., where all contributing members must be listed on the submission), all turned-in work must be completed individually. For full institutional standards, please review the [Carnegie Mellon University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html).
+
+??? quote "Use of Generative AI Tools"
+
+    You are permitted &mdash; and encouraged &mdash; to use Generative AI tools to support your learning and assignments in this course. However, you are expected to maintain full ownership and accountability over your final output. This means that using an AI tool does not relieve you of the responsibility to understand the material: you must be able to independently explain, defend, and reproduce any concept, code, argument, or calculation present in your submission.
+    
+    Additionally, AI tools should augment, not replace, your personal effort. While frontier models have made it possible to quickly generate reasonable outputs with minimal human intervention, the effort required to provide high-quality human review, feedback, and assistance remains the same. Accordingly, you should not expect to receive high effort guidance on work that you have not put proportional effort into.
+
 ## Lab Assignments
 
 <div class="grid cards" markdown>
@@ -49,7 +66,3 @@ Please use the [proposal template](https://docs.google.com/document/d/1QOJgLV7Sm
     The project proposal should be no more than 1000 words total.
 
     *Tip: use Ctrl+Shift+C to count words in Google Docs. Note that this limit applies to the total word count, including the proposal template itself.*
-
-### Progress Report
-
-### Final Report

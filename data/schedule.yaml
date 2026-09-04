@@ -16,6 +16,7 @@ schedule:
       Phased arrays: https://www.youtube.com/watch?v=jSDLfcNhThw
 - date: 09/03
   topic: Intro Radar
+  slides: resources/09_03_pulse_radar.pdf
   description: A crash course in radar systems and radar signal processing pipelines
   resources:
     See Also:

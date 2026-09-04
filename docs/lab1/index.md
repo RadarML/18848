@@ -71,7 +71,18 @@ The radar unit has 3 ports on the side:
 
         While it theoretically possible to power the unit from a USB port via a USB to DC jack cable, the required peak current exceeds the USB 3.0 (and definitely 2.0) specifications. If your computer has faulty current limiting circuits, this could damage your computer!
 
-Connect these ports as appropriate. Then, follow the instructions in the [`xwr` user guide](https://radarml.github.io/xwr/usage/) to set up your computer. Note that the [hardware setup](https://radarml.github.io/xwr/setup/) steps have already been done for you.
+Connect these ports as appropriate. Then, follow the instructions in the [`xwr` user guide](https://radarml.github.io/xwr/usage/) to set up your computer.
+
+!!! note
+
+    The [hardware setup](https://radarml.github.io/xwr/setup/) steps have already been done for you. The `xwr` demo should also auto-detect the port to which the radar is connected.
+
+!!! tip
+
+    The development kit uses the AWR1843AOP (i.e., uses the AWR1843 radar silicon, but has the AWR1843AOP antenna configuration). When running the demo, this means you should specify
+    ```
+    --device AWR1843 --rsp AWR1843AOP
+    ```
 
 If everything has been set up correctly, you should be able to clone the [`xwr` repo](https://github.com/RadarML/xwr) and run the [`xwr` demo](https://radarml.github.io/xwr/usage/#run-the-demo).
 
@@ -98,8 +109,11 @@ Document these requirements in your lab report (e.g., "the radar should be able 
 
 Once you have determined these requirements, you can proceed to design your modulation by selecting appropriate values for each [configuration parameter](https://radarml.github.io/xwr/system/#xwr.XWRConfig).
 
-![Chirp Timing Diagram](chirp_timing.png)
+!!! tip
 
+    The RadarML [Radar Cheatsheet](https://github.com/RadarML/radar-cheatsheet/releases/download/v1.0/radar_cheatsheet.pdf) provides a quick-reference manual for FMCW radar equations, and may be useful for designing your modulation.
+
+![Chirp Timing Diagram](chirp_timing.png)
 
 In addition to the [hardware constraints](https://radarml.github.io/xwr/constraints/) which must be satisfied, your modulation must meet the following requirements:
 
@@ -135,6 +149,8 @@ Using this system, then collect samples under these four conditions:
 
 `xwr` includes a powerful signal processing library; however, this library is quite abstract, and includes several layers of indirection to support features such as different radars and numerical backends which make it hard to read. Your job is to write a standalone implementation of the signal processing pipeline for the AWR1843AOP and your modulation.
 
+### Requirements
+
 Your implementation should be able to do the following:
 
 - Compute (complex) 4D range-Doppler-azimuth-elevation data cubes from the data collected by the AWR1843AOP.
@@ -142,18 +158,24 @@ Your implementation should be able to do the following:
 - Compute cell-averaging CFAR peaks.
     - First flatten the 4D range-Doppler-tx-rx data cube into a 2D range-Doppler heatmap.
     - Choose reasonable CFAR parameters; you can play with these parameters to see what provides the best (qualitative) balance between noise and sensitivity.
+    - You are free to choose other CFAR variants (e.g., CFAR-CASO) if you wish. If you do so, make sure to explicitly state this in your report.
 - Compute angle estimates (azimuth and elevation) for the detected peaks, and convert the range-azimuth-elevation CFAR points to Cartesian coordinates.
     - You can use a brute-force approach to compute angles by calculating the azimuth-elevation FFT with a large amount of zero-padding, and finding the bin with maximum magnitude.
 
-Note that your implementation does not have to do the following:
-
-- Be a python library; your implementation can be a script, module, or even part of a Jupyter notebook.
-- Support different radars or chirp/modulation configurations other than the one you selected.
-- Use GPU acceleration or backends other than numpy.
-
 !!! warning
 
-    The data output of `xwr` is in a nonstandard byte order; you can call into [`xwr.rsp.iq_from_iiqq`](https://radarml.github.io/xwr/rsp/#xwr.rsp.iq_from_iiqq) to convert the raw bytes into complex numbers.
+    The data output of the TI capture card (and by extension, `xwr`, which faithfully captures the raw outputs) is in a nonstandard byte order; you can call into [`xwr.rsp.iq_from_iiqq`](https://radarml.github.io/xwr/rsp/#xwr.rsp.iq_from_iiqq) to convert the raw bytes into complex numbers.
+
+### Non-requirements
+
+To make your job easier, your implementation explicitly does not have to do the following:
+
+- Be written independently. It is perfectly fine to refer to the `xwr` source code for guidance. You can even set up a parity test if you'd like!
+- Be a python library; your implementation can be a script, module, or even part of a Jupyter notebook.
+- Support different radars or chirp/modulation configurations other than the one you selected.
+- Use GPU acceleration or backends other than numpy, or implement any performance optimizations (though a grossly inefficient implementation, e.g., using python scalars and lists instead of arrays, may adversely impact your ability to complete this lab even within the generous time frame provided).
+
+You are of course free and encouraged to attempt these if you wish!
 
 ## Visualize Data
 
