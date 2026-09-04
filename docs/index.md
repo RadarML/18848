@@ -9,12 +9,13 @@ Radio Frequency (RF) sensing is a critical component of modern autonomous system
 
 To unlock the full potential of these sensors, we naturally turn to machine learning (ML), which has revolutionized how we approach sensing and perception, particularly in the computer vision community. However, to date, there has been relatively little overlap between the RF and ML communities, with relatively limited work on sensing methodologies which integrate RF and machine learning at a more fundamental level. Modern machine learning paradigms such as large-scale foundation models have also yet to be fully explored for the RF domain.
 
+<!--
 !!! warning "Registration / Waitlist"
 
     While 18-848 currently shows as waitlisted due to seat reservations for specific programs, the course is not actually full.
     
     **If you are waitlisted, you should be added to the course within the first 1-2 weeks**. Please come to class and participate regardless!
-
+-->
 
 <div class="grid cards speakers">
 
